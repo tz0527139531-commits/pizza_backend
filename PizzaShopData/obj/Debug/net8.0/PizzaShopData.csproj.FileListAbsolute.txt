@@ -1,0 +1,17 @@
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopData.deps.json
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopData.runtimeconfig.json
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopData.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopData.pdb
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopCore.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\bin\Debug\net8.0\PizzaShopCore.pdb
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.csproj.AssemblyReference.cache
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.AssemblyInfoInputs.cache
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.AssemblyInfo.cs
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.csproj.CoreCompileInputs.cache
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\refint\PizzaShopData.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.pdb
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.genruntimeconfig.cache
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\ref\PizzaShopData.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaSho.21FEA0A6.Up2Date
