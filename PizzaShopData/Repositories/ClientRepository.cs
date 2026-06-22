@@ -12,9 +12,17 @@ namespace PizzaShopData.Repositories
     {
         private readonly DataContext _context;
 
+        
+
         public ClientRepository(DataContext context)
         {
             this._context = context;
+        }
+
+        public Client Login(LoginModel login)
+        {
+            var client= _context.clients.ToList().Find(y => y.ClientName == login.UserName && y.Password == login.Password);
+            return client;
         }
         public List<Client> GetAll()
         {
@@ -30,12 +38,13 @@ namespace PizzaShopData.Repositories
             _context.clients.Add(client);
             await _context.SaveChangesAsync();
         }
+       
         public async Task PutAsync(Client client)
         {
             var c = _context.clients.ToList().Find(y => y.Id == client.Id);
             if (c != null)
             {
-               // c.ClientAddres=client.ClientAddres;
+                c.Address = client.Address;
                 c.ClientName = client.ClientName;
                await _context.SaveChangesAsync();
             }

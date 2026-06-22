@@ -33,10 +33,9 @@ builder.Services.AddScoped<IClientService,ClientService>();
 
 
 //geminy אמר שלא צריך את השורה הזאת לבדוק!
-builder.Services.AddSingleton<DataContext>();
-//
-builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddSingleton<DataContext>();
 
+builder.Services.AddDbContext<DataContext>();
 
 builder.Services.AddAutoMapper(cfg =>
 {

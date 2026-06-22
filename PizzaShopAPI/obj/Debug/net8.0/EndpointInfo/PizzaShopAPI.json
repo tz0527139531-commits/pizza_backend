@@ -50,17 +50,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientDTO"
+                "$ref": "#/components/schemas/ClientRegisterDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientDTO"
+                "$ref": "#/components/schemas/ClientRegisterDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientDTO"
+                "$ref": "#/components/schemas/ClientRegisterDTO"
               }
             }
           }
@@ -402,7 +402,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PizzaDTO"
+                    "$ref": "#/components/schemas/Pizza"
                   }
                 }
               },
@@ -410,7 +410,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PizzaDTO"
+                    "$ref": "#/components/schemas/Pizza"
                   }
                 }
               },
@@ -418,7 +418,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PizzaDTO"
+                    "$ref": "#/components/schemas/Pizza"
                   }
                 }
               }
@@ -434,17 +434,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             }
           }
@@ -478,17 +478,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PizzaDTO"
+                  "$ref": "#/components/schemas/Pizza"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PizzaDTO"
+                  "$ref": "#/components/schemas/Pizza"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PizzaDTO"
+                  "$ref": "#/components/schemas/Pizza"
                 }
               }
             }
@@ -514,17 +514,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PizzaDTO"
+                "$ref": "#/components/schemas/Pizza"
               }
             }
           }
@@ -570,6 +570,32 @@
           "clientName": {
             "type": "string",
             "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientRegisterDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientName": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -602,7 +628,7 @@
         },
         "additionalProperties": false
       },
-      "PizzaDTO": {
+      "Pizza": {
         "type": "object",
         "properties": {
           "id": {
@@ -612,6 +638,10 @@
           "type": {
             "type": "string",
             "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

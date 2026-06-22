@@ -13,3 +13,4 @@ C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב ש�
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopService\obj\Debug\net8.0\PizzaShopService.pdb
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopService\obj\Debug\net8.0\ref\PizzaShopService.dll
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopService\obj\Debug\net8.0\PizzaSho.AE67B18D.Up2Date
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopService\obj\Debug\net8.0\PizzaShopService.sourcelink.json

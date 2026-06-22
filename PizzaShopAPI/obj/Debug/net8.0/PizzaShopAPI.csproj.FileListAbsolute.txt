@@ -152,3 +152,4 @@ C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב ש�
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopAPI\obj\Debug\net8.0\PizzaSho.D4FF1219.Up2Date
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopAPI\obj\Debug\net8.0\PizzaShopAPI.sourcelink.json

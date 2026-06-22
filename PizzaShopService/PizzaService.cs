@@ -21,24 +21,24 @@ namespace PizzaShopService
             _mapper = mapper;
         }
 
-        public IEnumerable<PizzaDTO> GetList()
+        public IEnumerable<Pizza> GetList()
         {
             //TODO 
             var l=_pizzaRepositery.GetAll();
-            return _mapper.Map<IEnumerable<PizzaDTO>>(l);
+            return _mapper.Map<IEnumerable<Pizza>>(l);
         }
 
-        public PizzaDTO GetById(int id)
+        public Pizza GetById(int id)
         {
             var t=_pizzaRepositery.Get(id);
-            return _mapper.Map<PizzaDTO>(t);
+            return _mapper.Map<Pizza>(t);
         }
-        public async Task PostPizzaAsync(PizzaDTO pizza)
+        public async Task PostPizzaAsync(Pizza pizza)
         {
             var f = _mapper.Map<Pizza>(pizza);
             await _pizzaRepositery.PostAsync(f);
         }
-        public async Task UpdatePizzaAsync(PizzaDTO pizza)
+        public async Task UpdatePizzaAsync(Pizza pizza)
         {
             var t = _mapper.Map<Pizza>(pizza);
            await _pizzaRepositery.PutAsync(t);

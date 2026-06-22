@@ -11,17 +11,14 @@ namespace PizzaShopCore.Entities
         public int Id { get; set; }
         public string Type { get; set; }
         public int Price { get; set; }
-        public int OrderId { get; set; }
-        public Order Order { get; set; }
         public Pizza() { }
         
-        public Pizza(int Id, string Type, int Price,Order o,int oid)
+        public Pizza(int Id, string Type, int Price)
         {
             this.Type = Type;
             this.Price = Price;
             this.Id = Id;
-            this.OrderId = oid;
-            this.Order = o;
+           
         }
 
 

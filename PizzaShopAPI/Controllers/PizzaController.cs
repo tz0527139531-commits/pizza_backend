@@ -22,14 +22,14 @@ namespace PizzaShopAPI.Controllers
 
         // GET: api/<PizzaController>
         [HttpGet]
-        public ActionResult<IEnumerable<PizzaDTO>> Get()
+        public ActionResult<IEnumerable<Pizza>> Get()
         {
             return Ok(_PizzaService.GetList());
         }
 
         // GET api/<PizzaController>/5
         [HttpGet("{id}")]
-        public ActionResult<PizzaDTO> Get(int id)
+        public ActionResult<Pizza> Get(int id)
         {
             var a = _PizzaService.GetById(id);
            if (a==null)
@@ -39,7 +39,7 @@ namespace PizzaShopAPI.Controllers
 
         // POST api/<PizzaController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] PizzaDTO p)
+        public async Task<ActionResult> Post([FromBody] Pizza p)
         {
             if (p == null)
             {
@@ -52,7 +52,7 @@ namespace PizzaShopAPI.Controllers
 
         // PUT api/<PizzaController>/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] PizzaDTO p)
+        public async Task<IActionResult> Put(int id, [FromBody] Pizza p)
         {
             await _PizzaService.UpdatePizzaAsync(p);
             

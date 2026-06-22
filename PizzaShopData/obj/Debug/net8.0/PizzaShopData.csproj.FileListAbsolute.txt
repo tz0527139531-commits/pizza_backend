@@ -15,3 +15,4 @@ C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב ש�
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.genruntimeconfig.cache
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\ref\PizzaShopData.dll
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaSho.21FEA0A6.Up2Date
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopData\obj\Debug\net8.0\PizzaShopData.sourcelink.json

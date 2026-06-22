@@ -14,16 +14,19 @@ namespace PizzaShopCore.Mapping
     {
         public MappingProfile()
         {
-
+            //CreateMap<Pizza, PizzaDTO>().ReverseMap();
             CreateMap<Client, ClientDTO>().ReverseMap();
-          
-            //            CreateMap<OrderDTO, Order>().ReverseMap();
+            CreateMap<Client, ClientRegisterDTO>().ReverseMap();
 
-            CreateMap<OrderDTO, Order>()
-            .ForMember(dest => dest.OrderId, opt => opt.Ignore());
+
+            CreateMap<OrderDTO, Order>().ReverseMap();
+
+            //CreateMap<OrderDTO, Order>()
+            //.ForMember(dest => dest.OrderId, opt => opt.Ignore());
             // או dest.Id - תלוי איך קראת לזה במחלקת ההזמנה האמיתית
 
-            CreateMap<Pizza, PizzaDTO>().ReverseMap();
+
+           
           
 
         }

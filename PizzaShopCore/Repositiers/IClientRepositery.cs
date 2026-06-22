@@ -9,6 +9,7 @@ namespace PizzaShopCore.Repositiers
 {
     public interface IClientRepositery
     {
+        public Client Login(LoginModel l);
         public List<Client> GetAll();
         public Client Get(int id);
         public Task PostAsync(Client client);

@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using PizzaShopCore.Entities;
+using PizzaShopCore.Repositiers;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -14,12 +16,22 @@ namespace PizzaShopService
 {
     public class JwtService
     {
+        private readonly IClientRepositery _clientRepositery;
         private readonly IConfiguration _configuration;
-        public JwtService(IConfiguration configuration) 
+        public JwtService(IConfiguration configuration,IClientRepositery clientRepositery) 
         {
            _configuration = configuration;
+            _clientRepositery = clientRepositery;
         }
+        //
+        //
 
+        public Client login(LoginModel l)
+        {
+            var login = _clientRepositery.Login(l);
+            return login;
+
+        }
         public JwtToken GenerateToken(string userId )
         {
             var key=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -37,8 +49,8 @@ namespace PizzaShopService
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(Convert.ToDouble(_configuration["Jwt:ExpiresMinuts"])
-
+                expires: DateTime.Now.AddMinutes(Convert.ToDouble(_configuration["Jwt:ExpiresMinutes"])
+                                                                                     
                 ), signingCredentials: creds);
             return new JwtToken { StringToken = new JwtSecurityTokenHandler().WriteToken(token) };
 

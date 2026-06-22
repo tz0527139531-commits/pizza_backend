@@ -12,7 +12,7 @@ namespace PizzaShopCore.Services
     {
         public IEnumerable<ClientDTO>GetList();
         public ClientDTO GetById(int id);
-        public  Task PostClientAsync(ClientDTO client);
+        public  Task PostClientAsync(ClientRegisterDTO client);
         public Task UpdateClientAsync(ClientDTO client);
         public Task DeleteClientAsync(int id);
     }

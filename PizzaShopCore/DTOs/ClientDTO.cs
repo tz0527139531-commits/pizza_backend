@@ -10,6 +10,8 @@ namespace PizzaShopCore.DTOs
     {
         public int Id { get; set; }
         public string ClientName { get; set; }
-       
+        public string Address { get; set; }
+
+
     }
 }

@@ -10,3 +10,4 @@ C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב ש�
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopCore\obj\Debug\net8.0\refint\PizzaShopCore.dll
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopCore\obj\Debug\net8.0\PizzaShopCore.pdb
 C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopCore\obj\Debug\net8.0\ref\PizzaShopCore.dll
+C:\Users\This User\Desktop\פרויקטים ושיעורים ממחצית ב שנה ב\dotnet פרויקט פיצה c#\PizzaShopAPI\PizzaShopCore\obj\Debug\net8.0\PizzaShopCore.sourcelink.json

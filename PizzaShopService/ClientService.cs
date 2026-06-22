@@ -41,12 +41,18 @@ namespace PizzaShopService
             var c = _client.Get(id);
             return _mapping.Map<ClientDTO>(c);
         }
-        public async Task PostClientAsync(ClientDTO client)
+        public async Task PostClientAsync(ClientRegisterDTO client)
         {
             //TODO
             var ClientAdd=_mapping.Map<Client>(client);
             await _client.PostAsync(ClientAdd);
         }
+        //public async Task PostClientAsync(ClientDTO client)
+        //{
+        //    //TODO
+        //    var ClientAdd = _mapping.Map<Client>(client);
+        //    await _client.PostAsync(ClientAdd);
+        //}
         public async Task UpdateClientAsync(ClientDTO client)
         {
             //TODO

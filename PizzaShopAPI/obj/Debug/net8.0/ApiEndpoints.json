@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "c",
-        "Type": "PizzaShopCore.DTOs.ClientDTO",
+        "Type": "PizzaShopCore.DTOs.ClientRegisterDTO",
         "IsRequired": true
       }
     ],
@@ -118,7 +118,7 @@
     "Parameters": [
       {
         "Name": "login",
-        "Type": "PizzaShopAPI.Controllers.JwtController\u002BLoginModel",
+        "Type": "PizzaShopCore.Entities.LoginModel",
         "IsRequired": true
       }
     ],
@@ -233,7 +233,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[PizzaShopCore.DTOs.PizzaDTO, PizzaShopCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PizzaShopCore.Entities.Pizza, PizzaShopCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -253,7 +253,7 @@
     "Parameters": [
       {
         "Name": "p",
-        "Type": "PizzaShopCore.DTOs.PizzaDTO",
+        "Type": "PizzaShopCore.Entities.Pizza",
         "IsRequired": true
       }
     ],
@@ -275,7 +275,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "PizzaShopCore.DTOs.PizzaDTO",
+        "Type": "PizzaShopCore.Entities.Pizza",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -300,7 +300,7 @@
       },
       {
         "Name": "p",
-        "Type": "PizzaShopCore.DTOs.PizzaDTO",
+        "Type": "PizzaShopCore.Entities.Pizza",
         "IsRequired": true
       }
     ],

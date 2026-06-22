@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PizzaShopService;
+using PizzaShopCore.Entities;
 
 namespace PizzaShopAPI.Controllers
 {
@@ -22,7 +23,8 @@ namespace PizzaShopAPI.Controllers
             // כאן נבצע אימות משתמש מול מסד הנתונים
 
             // דוגמה לאימות
-            if (login.UserName == "Tamar" && login.Password == "1234")
+            var c =_jwtService.login(login);
+            if (c!=null)
             {
                 var token = _jwtService.GenerateToken(login.UserName);
                 return Ok(token);
@@ -30,11 +32,7 @@ namespace PizzaShopAPI.Controllers
             return Unauthorized();
         }
 
-        public class LoginModel
-        {
-            public string UserName { get; set; }
-            public string Password { get; set; }
-        }
+       
     }
 }
 

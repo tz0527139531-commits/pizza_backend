@@ -38,7 +38,9 @@ namespace PizzaShopData.Repositories
             if (p != null)
             {
                 
+                p.date=order.date;
                 p.client=order.client;
+                p.ClientId=order.ClientId;
                 p.list=order.list;
                 
             }

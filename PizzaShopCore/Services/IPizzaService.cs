@@ -11,10 +11,10 @@ namespace PizzaShopCore.Services
 {
     public interface IPizzaService
     {
-        public IEnumerable<PizzaDTO> GetList();
-        public PizzaDTO GetById(int id);
-        public Task PostPizzaAsync(PizzaDTO pizza);
-        public Task UpdatePizzaAsync(PizzaDTO pizza);
+        public IEnumerable<Pizza> GetList();
+        public Pizza GetById(int id);
+        public Task PostPizzaAsync(Pizza pizza);
+        public Task UpdatePizzaAsync(Pizza pizza);
         public Task DeletePizzaAsync(int id);
         
     }

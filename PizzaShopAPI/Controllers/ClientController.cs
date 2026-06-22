@@ -42,7 +42,7 @@ namespace PizzaShopAPI.Controllers
 
         // POST api/<ClientController>
         [HttpPost]
-        public async Task<ActionResult<ClientDTO>> Post([FromBody] ClientDTO c)
+        public async Task<ActionResult<ClientDTO>> Post([FromBody] ClientRegisterDTO c)
         {
             if (c == null)
             {
@@ -53,6 +53,17 @@ namespace PizzaShopAPI.Controllers
 
             return CreatedAtAction(nameof(Get), new { id = c.Id }, c);
         }
+        //public async Task<ActionResult<ClientDTO>> Post([FromBody] ClientDTO c)
+        //{
+        //    if (c == null)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    await _ClientService.PostClientAsync(c);
+
+        //    return CreatedAtAction(nameof(Get), new { id = c.Id }, c);
+        //}
 
         // PUT api/<ClientController>/5
         [HttpPut("{id}")]

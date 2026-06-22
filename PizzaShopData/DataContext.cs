@@ -10,7 +10,7 @@ using PizzaShopCore.Entities;
 
 namespace PizzaShopData
 {
-    public class DataContext :DbContext
+    public class DataContext:DbContext
     {
         private readonly IConfiguration _configuration;
         public DbSet<Pizza> pizzas { get; set; }
@@ -19,8 +19,7 @@ namespace PizzaShopData
         public DataContext(IConfiguration configuration)
         {
             this._configuration = configuration;
-         
-
+    
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
